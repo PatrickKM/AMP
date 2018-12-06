@@ -1,4 +1,18 @@
 /* Your custom styles  */
+
+/* Default Stylings */
+p {
+    margin-bottom: 5%;
+    font-family: Century Gothic;
+}
+
+h1,
+h2 {
+    font-family: Yu Gothic;
+    margin-bottom: 5%;
+}
+
+/* ID Stylings (#) */
 #myBtn {
     display: none;
     /* Hidden by default */
@@ -42,6 +56,9 @@
     margin-top: 5%;
 }
 
+/* Class Stylings (.) */
+
+/* NAVBAR Styling */
 .my-navbar {
     background-color: #5FA624 !important;
     margin-bottom: 5%;
@@ -56,23 +73,23 @@
     font-family: Yu Gothic;
 }
 
-footer {
-    background-color: #5FA624 !important;
-    margin-top: 10%;
-}
-
-p {
-    margin-bottom: 5%;
-    font-family: Century Gothic;
-}
-
-h1,
-h2 {
-    font-family: Yu Gothic;
-    margin-bottom: 5%;
-}
-
+/* COVER Styling */
 .cover img {
     width: 100%;
     margin-bottom: 5%;
 }
+
+/* FOOTER Styling */
+.my-footer {
+    background-color: #5FA624;
+    margin-top: 10%;
+}
+
+footer .list-group-item {
+    background-color: #5FA624;
+    color: white;
+    border: 1px solid white;
+    padding: .25rem 0rem;
+}
+
+
