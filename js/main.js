@@ -17,8 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
         for (let i = 0; i < posts.length; i++) {
             let post = posts[i];
             console.log(post);
-            document.querySelector('#gridPosts').innerHTML += `
-          <article class="gridItem">
+            document.querySelector('#wpPosts').innerHTML += `
+          <article class="wpItem">
             <h3>${post.title.rendered}</h3>
             <p>${post.content.rendered}</p>
           </article>
