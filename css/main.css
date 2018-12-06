@@ -94,7 +94,7 @@ footer .list-group-item {
 
 /* Wordpress API - Posts - Nyheder.html Styling */
 
-.wpContainer {
+/* .wpContainer {
     display: grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-gap: 10px;
@@ -103,3 +103,4 @@ footer .list-group-item {
 .wpContainer > .wpItem {
     padding: 20px 0;
 }
+ */
