@@ -2,7 +2,6 @@
 
 /* Default Stylings */
 p {
-    margin-bottom: 5%;
     font-family: Century Gothic;
 }
 
@@ -10,7 +9,9 @@ h1,
 h2 {
     font-family: Yu Gothic;
     margin-bottom: 5%;
+    text-align: center;
 }
+
 
 /* ID Stylings (#) */
 #myBtn {
@@ -48,7 +49,7 @@ h2 {
 }
 
 #map {
-    width: 30%;
+    width: 100%;
     height: 400px;
     background-color: grey;
     margin: auto;
@@ -94,13 +95,11 @@ footer .list-group-item {
 
 /* Wordpress API - Posts - Nyheder.html Styling */
 
-/* .wpContainer {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-gap: 10px;
+/* Wordpress API - Gratis Materialer - gratis.html Styling */
+video {
+    width: 100% !important;
 }
 
-.wpContainer > .wpItem {
-    padding: 20px 0;
+.wp-video {
+    width: 100% !important;
 }
- */

@@ -45,3 +45,24 @@ function topFunction() {
     document.body.scrollTop = 790; // For Safari
     document.documentElement.scrollTop = 790; // For Chrome, Firefox, IE and Opera
 };
+
+// Google Maps API
+// Initialize and add the map
+function initMap() {
+    // The location of Andrup Byvej 65, 6705 Esbjerg
+    var uluru = {
+        lat: 55.501307,
+        lng: 8.534884
+    };
+    // The map, centered at Andrup Byvej 65, 6705 Esbjerg
+    var map = new google.maps.Map(
+        document.getElementById('map'), {
+            zoom: 15,
+            center: uluru
+        });
+    // The marker, positioned at Andrup Byvej 65, 6705 Esbjerg
+    var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+    });
+}
