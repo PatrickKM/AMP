@@ -5,11 +5,19 @@ p {
     font-family: Century Gothic, ;
 }
 
+h1 {
+    padding-top: 25px;
+}
+
 h1,
 h2 {
     font-family: Yu Gothic, ;
-    margin-bottom: 5%;
+    margin: 10px 0;
     text-align: center;
+}
+
+img {
+    display: inline-block;
 }
 
 nav img {
@@ -64,9 +72,8 @@ nav img {
 /* Class Stylings (.) */
 
 /* NAVBAR Styling */
-.my-navbar {
+.navbar {
     background-color: #5FA624 !important;
-    margin-bottom: 5%;
 }
 
 .nav-link {
@@ -110,7 +117,6 @@ nav img {
 /* COVER Styling */
 .cover img {
     width: 100%;
-    margin-bottom: 5%;
 }
 
 /* FOOTER Styling */
