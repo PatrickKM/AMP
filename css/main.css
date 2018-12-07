@@ -2,12 +2,12 @@
 
 /* Default Stylings */
 p {
-    font-family: Century Gothic;
+    font-family: Century Gothic, ;
 }
 
 h1,
 h2 {
-    font-family: Yu Gothic;
+    font-family: Yu Gothic, ;
     margin-bottom: 5%;
     text-align: center;
 }
@@ -15,7 +15,6 @@ h2 {
 nav img {
     width: 50%;
 }
-
 
 
 /* ID Stylings (#) */
@@ -70,13 +69,42 @@ nav img {
     margin-bottom: 5%;
 }
 
-.navbar-nav {
-    margin-right: auto;
-}
-
 .nav-link {
     font-size: 20px;
-    font-family: Yu Gothic;
+    font-family: Yu Gothic, ;
+}
+
+
+/* Dropdown - NAVBAR Styling */
+.dropdown-menu {
+    background-color: #5FA624;
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, .5);
+}
+
+.dropdown-item:hover {
+    background-color: #5FA624;
+    color: white;
+}
+
+.dropdown-divider {
+    border-top: 1px solid rgba(0, 0, 0, .15);
+}
+
+/* NAV Pills Styling */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+    background-color: #5FA624;
+}
+
+.nav-item {
+    color: #5FA624;
+}
+
+.nav-item:hover {
+    color: #2e5210;
 }
 
 /* COVER Styling */
@@ -99,7 +127,6 @@ footer .list-group-item {
 }
 
 /* Wordpress API - Posts - Nyheder.html Styling */
-
 /* Wordpress API - Gratis Materialer - gratis.html Styling */
 video {
     width: 100% !important;
