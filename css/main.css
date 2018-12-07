@@ -33,7 +33,7 @@ nav img {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: red;
+    background-color: #2e5210;
     /* Set a background color */
     color: white;
     /* Text color */
@@ -48,7 +48,7 @@ nav img {
 }
 
 #myBtn:hover {
-    background-color: #555;
+    background-color: #93BF6E;
     /* Add a dark-grey background on hover */
 }
 
