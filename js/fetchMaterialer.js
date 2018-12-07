@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // the DOM is fully loaded
     console.log("Document ready!");
 
-    // Wordpress API Fetch - gratis lydoptagelse.html
+    // Wordpress API Fetch - gratis.html
     fetch('http://hypno.koomunication.dk/wp-json/wp/v2/media')
         .then(function (response) {
             return response.json();
