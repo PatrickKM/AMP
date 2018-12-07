@@ -12,6 +12,11 @@ h2 {
     text-align: center;
 }
 
+nav img {
+    width: 50%;
+}
+
+
 
 /* ID Stylings (#) */
 #myBtn {
@@ -102,4 +107,10 @@ video {
 
 .wp-video {
     width: 100% !important;
+}
+
+@media (min-width: 992px) {
+    nav img {
+        width: 100%;
+    }
 }
