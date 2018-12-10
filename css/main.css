@@ -71,6 +71,11 @@ nav img {
 
 /* Class Stylings (.) */
 
+/* Profil Styling */
+.profil img {
+    width: 75%;
+}
+
 /* NAVBAR Styling */
 .navbar {
     background-color: #5FA624 !important;
