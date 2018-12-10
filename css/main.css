@@ -2,7 +2,7 @@
 
 /* Default Stylings */
 p {
-    font-family: Century Gothic, ;
+    font-family: Century Gothic, sans-serif;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 
 h1,
 h2 {
-    font-family: Yu Gothic, ;
+    font-family: Yu Gothic, sans-serif;
     margin: 10px 0;
     text-align: center;
 }
@@ -83,7 +83,7 @@ nav img {
 
 .nav-link {
     font-size: 20px;
-    font-family: Yu Gothic, ;
+    font-family: Yu Gothic, sans-serif;
 }
 
 
