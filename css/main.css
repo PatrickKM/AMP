@@ -14,10 +14,12 @@ h2 {
     font-family: Yu Gothic, sans-serif;
     margin: 10px 0;
     text-align: center;
+    color: #555555;
 }
 
 h3 {
     font-family: Yu Gothic, sans-serif;
+    color: #555555;
 }
 
 img {
@@ -81,32 +83,10 @@ nav img {
 }
 
 /* NAVBAR Styling */
-
 .nav-link {
     font-size: 20px;
     font-family: Yu Gothic, sans-serif;
 }
-
-.navbar-dark .navbar-nav .nav-link {
-    color: black;
-}
-
-.navbar-dark .navbar-nav .nav-link: {
-    color: black;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-    color: white;
-    background-color: black;
-    border-radius: 5%;
-    border: 0px;
-}
-
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: grey;
-}
-
-/* Dropdown - NAVBAR Styling */
 
 /* NAV Pills Styling */
 .nav-pills .nav-link.active,
@@ -129,12 +109,12 @@ nav img {
 
 /* FOOTER Styling */
 .my-footer {
-    background-color: #5FA624;
+    background-color: #555555;
     margin-top: 10%;
 }
 
 footer .list-group-item {
-    background-color: #5FA624;
+    background-color: #555555;
     color: white;
     border: 1px solid white;
     padding: .25rem 0rem;
